@@ -19,6 +19,7 @@ public class Exercicio011 {
         area = largura * altura;
         quantidadeTinta = area / 2;
         System.out.printf("Será necessário %.2f latas de tinta.", quantidadeTinta);
+        
     }
     
     
