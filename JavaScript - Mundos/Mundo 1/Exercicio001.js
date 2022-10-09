@@ -3,3 +3,4 @@
 * Crie um programa que escreva "Olá, Mundo!" na tela.
 */
 
+document.write('Olá, Mundo!')
