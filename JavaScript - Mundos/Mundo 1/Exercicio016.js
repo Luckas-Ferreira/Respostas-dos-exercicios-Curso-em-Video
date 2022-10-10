@@ -10,3 +10,6 @@
  * num = float(input('Digite um valor: '))
  * print('O valor digitado foi {} e a sua porção inteira é {}!'.format(num, trunc(num)))
  */
+
+var num = parseFloat(prompt('Digite um número: '))
+document.write(`O número ${num} tem a parte inteira ${Math.trunc(num)}`)
