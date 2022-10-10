@@ -8,3 +8,8 @@
  * hi = (co ** 2 + ca ** 2) ** (1 / 2)
  * print('A hipotenusa vai medir {:.2f}!'.format(hi))
  */
+
+var co = Number(prompt('Cateto oposto: '))
+var ca = Number(prompt('Cateto adjacente: '))
+var hi = (co ** 2 + ca ** 2) ** (1 / 2)
+document.write(`A hipotenusa vai medir ${hi.toFixed(2)}!`)
