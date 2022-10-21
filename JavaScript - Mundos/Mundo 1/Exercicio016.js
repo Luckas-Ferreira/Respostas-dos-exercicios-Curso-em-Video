@@ -13,3 +13,4 @@
 
 var num = parseFloat(prompt('Digite um número: '))
 document.write(`O número ${num} tem a parte inteira ${Math.trunc(num)}`)
+
